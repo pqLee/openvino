@@ -77,7 +77,7 @@ function(openvino_developer_export_targets)
 endfunction()
 
 # Install catkin package.xml
-install(FILES package.xml DESTINATION share/cartographer)
+install(FILES package.xml DESTINATION share/openvino)
 
 ie_cpack_add_component(ngraph REQUIRED)
 ie_cpack_add_component(ngraph_dev REQUIRED DEPENDS ngraph)
