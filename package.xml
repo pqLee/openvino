@@ -69,6 +69,11 @@
   <depend>ffmpeg</depend>
   <depend>libopenblas-dev</depend>
   <depend>libboost-regex-dev</depend>
+  <depend>libgtk2.0-dev</depend>
+  <depend>libglib2.0-dev</depend>
+  <depend>libswscale-dev</depend>
+  <depend>libgstreamer1.0-0</depend>
+  <depend>gstreamer1.0-plugins-base</depend>
 
   <export>
     <build_type>cmake</build_type>
