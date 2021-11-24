@@ -57,7 +57,6 @@
   <buildtool_depend>automake</buildtool_depend>
   <buildtool_depend>libtool</buildtool_depend>
 
-  <depend>libcurl4-openssl-dev</depend>
   <depend>wget</depend>
   <depend>libssl-dev</depend>
   <depend>gtk2</depend>
