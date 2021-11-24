@@ -58,20 +58,17 @@
   <buildtool_depend>libtool</buildtool_depend>
 
 
-  <build_depend>libssl-dev</build_depend>
-  <build_depend>gtk2</build_depend>
-  <build_depend>unzip</build_depend>
-  <build_depend>autoconf</build_depend>
-  <build_depend>libcairo2-dev</build_depend>
-  <build_depend>libusb-1.0-dev</build_depend>
-  <build_depend>libpng12-dev</build_depend>
-
-
+  <depend>libssl-dev</depend>
+  <depend>gtk2</depend>
+  <depend>unzip</depend>
+  <depend>autoconf</depend>
+  <depend>libcairo2-dev</depend>
+  <depend>libusb-1.0-dev</depend>
+  <depend>libpng12-dev</depend>
   <depend>pkg-config</depend>
   <depend>ffmpeg</depend>
   <depend>libopenblas-dev</depend>
-
-  <run_depend>libboost-regex-dev</run_depend>
+  <depend>libboost-regex-dev</depend>
 
   <export>
     <build_type>cmake</build_type>
