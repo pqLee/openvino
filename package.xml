@@ -64,7 +64,7 @@
   <depend>autoconf</depend>
   <depend>libcairo2-dev</depend>
   <depend>libusb-1.0-dev</depend>
-  <depend>libpng12-dev</depend>
+  <depend>libpng-dev</depend>
   <depend>pkg-config</depend>
   <depend>ffmpeg</depend>
   <depend>libopenblas-dev</depend>
